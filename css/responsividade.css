@@ -1,0 +1,77 @@
+@media (max-width: 600px)
+{
+    nav ul
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .galeria-item
+    {
+        flex: 1 1 100%;
+    }
+
+    .mundo_dividido, .eua_vs_urss
+    {
+        max-width: 100%;
+    }
+
+    #episodios img, #consequencias img
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.3rem; }
+    h3 { font-size: 1rem; }
+
+    .formulario
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .bandeiras
+    {
+        height: 200px;
+    }
+
+    .painel
+    {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        width: 100%;
+    }
+
+    .painel-item
+    {
+        height: 200px;
+        grid-column: auto;
+        grid-row: auto;
+    }
+
+    .banner-texto
+    {
+        animation-duration: 10s;
+    }
+
+    .banner-texto span
+    {
+        font-size: 0.85rem;
+    }
+}
+
+@media (min-width: 1024px)
+{
+    main
+    {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+
+    .mundo_dividido, .eua_vs_urss
+    {
+        max-width: 600px;
+    }
+}

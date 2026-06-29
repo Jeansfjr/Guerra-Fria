@@ -1,0 +1,27 @@
+body
+{
+    background: var(--cor-fundo);
+}
+
+h1, p, h3
+{
+    color: var(--cor-textos2);
+}
+
+h2
+{
+    color: var(--cor-textos3);
+}
+
+figure
+{
+    margin: 0;
+}
+
+.legenda-imagem
+{
+    font-size: 0.85rem;
+    color: var(--cor-textos1);
+    font-style: italic;
+    margin-top: 0.3rem;
+}

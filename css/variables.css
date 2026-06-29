@@ -1,0 +1,13 @@
+:root
+{
+    --cor-fundo: rgb(69, 4, 4);
+    --cor-fundo-galeria: #1a0000;
+    --cor-borda-galeria: #ebc90b;
+    --cor-textos1: rgb(173, 173, 13);
+    --cor-textos2: white;
+    --cor-textos3: rgb(4, 0, 255);
+    --cor-referencias: rgb(104, 9, 96);
+    --cor-formulario1: #2a0000;
+    --cor-formulario2: black;
+    --cor-fundo-formulario: rgb(220, 220, 20);
+}
