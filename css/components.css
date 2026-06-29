@@ -105,3 +105,17 @@ form.formulario button:hover
     0%   { transform: translateX(0); }
     100% { transform: translateX(-50%); }
 }
+:root
+{
+    --cor-voltar: white;
+    --cor-fundo: rgb(69, 4, 4);
+    --cor-fundo-galeria: #1a0000;
+    --cor-borda-galeria: #ebc90b;
+    --cor-textos1: rgb(220, 210, 0);
+    --cor-textos2: white;
+    --cor-textos3: rgb(80, 120, 255);
+    --cor-referencias: white;
+    --cor-formulario1: #2a0000;
+    --cor-formulario2: black;
+    --cor-fundo-formulario: rgb(220, 220, 20);
+}
