@@ -71,3 +71,37 @@ form.formulario button:hover
 {
     background: var(--cor-fundo-formulario);
 }
+.banner-container
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    overflow: hidden;
+    background: var(--cor-fundo-galeria);
+    border-top: 1px solid var(--cor-textos1);
+    border-bottom: 1px solid var(--cor-textos1);
+    padding: 0.8rem 0;
+}
+
+.banner-texto
+{
+    display: flex;
+    gap: 5rem;
+    width: max-content;
+    animation: deslizar 15s linear infinite;
+}
+
+.banner-texto span
+{
+    color: var(--cor-textos1);
+    font-size: 1rem;
+    white-space: nowrap;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.05em;
+}
+
+@keyframes deslizar
+{
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
