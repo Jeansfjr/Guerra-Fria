@@ -1,6 +1,6 @@
 :root
 {
-    --cor-voltar(7, 246, 99, 0.87);
+    --cor-voltar:(7, 246, 99, 0.87);
     --cor-fundo: rgb(69, 4, 4);
     --cor-fundo-galeria: #1a0000;
     --cor-borda-galeria: #ebc90b;
