@@ -56,10 +56,10 @@ main
 
 .referencias h3
 {
-    color: var(--cor-referencias);
+    color: var(--cor-textos2);
 }
 
 .referencias ol
 {
-    color: var(--cor-referencias);
+    color: var(--cor-textos2);
 }
