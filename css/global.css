@@ -25,3 +25,7 @@ figure
     font-style: italic;
     margin-top: 0.3rem;
 }
+.link-topo
+{
+    color: var(--cor-textos3);
+}
