@@ -3,3 +3,17 @@ footer p
     padding: 20px;
     color: var(--cor-textos1);
 }
+.header-inner
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.logo
+{
+    width: 200px;
+    height: 100px;
+}
