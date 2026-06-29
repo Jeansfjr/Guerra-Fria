@@ -2,7 +2,7 @@
 {
     
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     align-items: center;
     gap: 1rem;
     text-align: center;
@@ -59,23 +59,35 @@ nav
 {
     font-size: 20px;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    gap: 1rem;
-    text-align: center;
+    justify-content: center;
 }
-nav ul li a
+
+nav ul
 {
-    color: rgb(173, 173, 13);
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 1rem;
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 0;
 }
-h1, p, h3, h4
+
+nav ul li a
+{
+    color: rgb(173, 173, 13);
+}
+h1, p, h3
+{
+    color: white;
+}
+#episodios li
+{
+    color: white;
+}
+#consequencias
 {
     color: white;
 }
@@ -102,4 +114,59 @@ footer p
 .referencias ol
 {
     color: rgb(104, 9, 96);
+}
+
+@media (max-width: 600px)
+{
+    nav ul
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .galeria-item
+    {
+        flex: 1 1 100%;
+    }
+
+    .mundo_dividido, .eua_vs_urss
+    {
+        max-width: 100%;
+    }
+
+    #episodios img, #consequencias img
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    h1
+    {
+        font-size: 1.5rem;
+    }
+
+    h2
+    {
+        font-size: 1.3rem;
+    }
+
+    h3
+    {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1024px)
+{
+    main
+    {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+
+    .mundo_dividido, .eua_vs_urss
+    {
+        max-width: 600px;
+    }
 }
