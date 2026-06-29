@@ -54,6 +54,7 @@ figure
 body
 {
     background: rgb(69, 4, 4);
+    gap: 1rem;
 }
 nav
 {
