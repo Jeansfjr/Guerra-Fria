@@ -3,6 +3,10 @@ footer p
     padding: 20px;
     color: var(--cor-textos1);
 }
+footer .link-github
+{
+    color: var(--cor-textos1);
+}
 .header-inner
 {
     display: flex;
